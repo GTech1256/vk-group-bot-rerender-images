@@ -1,0 +1,23 @@
+{
+  "name": "vk-group-bot-rerender-images",
+  "version": "0.0.1",
+  "description": "Through the messages of the group, the bot receives the picture and edits it, then it posts",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "easyvk": "^2.2.17",
+    "request": "^2.88.0",
+    "sharp": "^0.21.3",
+    "vk-io": "^4.0.0-rc.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "prod": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
