@@ -117,7 +117,7 @@ updates.hear(/\/frame/, async (ctx) => {
 
 
   const postUrl = await makePost(renderBuffer);
-  ctx.reply(`Отзеркаленная картинка выложена: ${postUrl}`);
+  ctx.reply(`Картинка с рамками выложена: ${postUrl}`);
 
 })
 
